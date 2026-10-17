@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sweepy Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: one calm reading column, a short summary card up top, then the full policy. */
+:root {
+  --bg: #F7F6FB; --ink: #17151F; --muted: #5E5A6E; --accent: #5530D9; --card: #FFFFFF; --line: #E4E1EE; --keep: #1A8A54;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121019; --ink: #ECEAF4; --muted: #A6A1B8; --accent: #A58DFF; --card: #1C1926; --line: #2E2A3B; --keep: #4CCB8C; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121019; --ink: #ECEAF4; --muted: #A6A1B8; --accent: #A58DFF; --card: #1C1926; --line: #2E2A3B; --keep: #4CCB8C; color-scheme: dark }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+main { max-width: 40rem; margin: 0 auto; padding-block: 48px 72px; display: grid; gap: 28px; }
+.brand { font-family: var(--display); font-weight: 800; color: var(--accent); letter-spacing: .02em; font-size: .85rem; text-transform: uppercase; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 6vw, 2.8rem); line-height: 1.1; margin: 6px 0 0; text-wrap: balance; }
+.date { color: var(--muted); font-size: .95rem; margin: 8px 0 0; }
+.summary { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 20px 22px; }
+.summary h2 { margin-top: 0; }
+.summary ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.summary li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; }
+.summary li::before { content: "✓"; color: var(--keep); font-weight: 700; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.25rem; margin: 0 0 6px; text-wrap: balance; }
+section p, section ul { margin: 0 0 10px; }
+section ul { padding-left: 1.2em; }
+a { color: var(--accent); }
+.contact { font-family: var(--display); font-weight: 600; user-select: all; }
+</style>
+
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">Sweepy: Photo Cleaner</div>
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated October 16, 2026</p>
+  </header>
+
+  <div class="summary">
+    <h2>The short version</h2>
+    <ul>
+      <li>Sweepy works entirely on your iPhone. Your photos and videos never leave it.</li>
+      <li>We don't collect, store or sell any personal data, and there's no account.</li>
+      <li>No analytics, no ads, no tracking.</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>Your photos and videos</h2>
+    <p>Sweepy asks for access to your photo library so it can find duplicates, similar shots, blurry photos, screenshots and large videos, and so it can delete, compress or convert the items you choose. All of this analysis happens on your device using Apple's built-in frameworks. Sweepy has no servers, and nothing from your library is uploaded, shared or sent to us or anyone else.</p>
+    <p>To make later scans faster, Sweepy keeps a small file on your iPhone with what it learned about each photo (for example a similarity fingerprint and a sharpness score). It stays on your device, is excluded from iCloud backups, and is removed when you delete the app.</p>
+  </section>
+
+  <section>
+    <h2>Deleting and changing items</h2>
+    <p>Sweepy only deletes, compresses or converts items after you choose them, and iOS asks you to confirm each change. Deleted and replaced originals go to Recently Deleted in the Photos app, where they stay for 30 days.</p>
+  </section>
+
+  <section>
+    <h2>Purchases</h2>
+    <p>Subscriptions and the lifetime purchase are handled by Apple through the App Store. We never see your name, email, Apple ID or payment details. Apple shares only whether a purchase is active, so Sweepy can unlock Pro features. Apple's own privacy policy applies to these purchases.</p>
+  </section>
+
+  <section>
+    <h2>Notifications</h2>
+    <p>If you turn on reminders or the low storage alert, Sweepy schedules notifications on your iPhone. The storage check reads only your iPhone's total and free space, and that information never leaves the device.</p>
+  </section>
+
+  <section>
+    <h2>Data we collect</h2>
+    <p>None. Sweepy contains no analytics, advertising or tracking code and does not use third-party SDKs that collect data. Its App Store privacy label is "Data Not Collected".</p>
+  </section>
+
+  <section>
+    <h2>Children</h2>
+    <p>Sweepy doesn't collect personal information from anyone, including children under 13.</p>
+  </section>
+
+  <section>
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, we will update this page and the date at the top.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Questions about privacy? Email <span><a class="contact" href="mailto:david-nilsson@live.se">david-nilsson@live.se</a></span>.</p>
+  </section>
+</main>
+
+</body>
+</html>
